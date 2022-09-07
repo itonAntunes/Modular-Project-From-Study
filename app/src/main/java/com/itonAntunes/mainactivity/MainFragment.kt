@@ -14,6 +14,7 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentMainBinding.bind(view)
+        binding.textFragment
     }
 
 

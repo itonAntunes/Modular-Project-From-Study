@@ -1,4 +1,4 @@
-package com.itonAntunes.mainactivity.mainactivity
+package com.itonAntunes.mainactivity.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
