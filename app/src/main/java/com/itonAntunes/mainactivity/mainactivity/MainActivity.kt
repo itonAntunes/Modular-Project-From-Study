@@ -1,7 +1,8 @@
-package com.itonAntunes.mainactivity
+package com.itonAntunes.mainactivity.mainactivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.itonAntunes.mainactivity.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
