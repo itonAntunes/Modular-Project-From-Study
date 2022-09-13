@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
-        android:name="com.itonAntunes.mainactivity.core.ToastSnakeFragment"
+        android:name="com.itonAntunes.mainactivity.core.toast.toast.ToastSnakeFragment"
         android:label="fragment_toast_snake"
         tools:layout="@layout/fragment_toast_snake" >
         <action
