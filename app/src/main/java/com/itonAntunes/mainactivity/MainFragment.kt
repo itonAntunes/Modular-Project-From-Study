@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.itonAntunes.mainactivity.databinding.FragmentMainBinding
+import com.itonAntunes.mainactivity.util.navTo
 
 class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main){
 
@@ -14,7 +15,8 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentMainBinding.bind(view)
-        binding.textFragment
+        binding.codelabToastSnake.setOnClickListener{navTo(R.id.toastSnakeFragment)}
+
     }
 
 
