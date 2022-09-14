@@ -16,6 +16,7 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main){
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentMainBinding.bind(view)
         binding.codelabToastSnake.setOnClickListener{navTo(R.id.toastSnakeFragment)}
+        binding.codelabNotification.setOnClickListener { navTo(R.id.notificationFragment)}
 
     }
 
