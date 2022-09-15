@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="blue">azul</string>
+    <string name="red">vermelho</string>
+    <string name="hello_blank_fragment">Olá fragmento vazio</string>
+</resources>
