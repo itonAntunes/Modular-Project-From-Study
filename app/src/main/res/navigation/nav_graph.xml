@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment2_to_notificationFragment"
             app:destination="@id/notificationFragment" />
+        <action
+            android:id="@+id/action_mainFragment2_to_selectImageFragment"
+            app:destination="@id/selectImageFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -33,6 +36,15 @@
         tools:layout="@layout/fragment_notification" >
         <action
             android:id="@+id/action_notificationFragment_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectImageFragment"
+        android:name="com.itonAntunes.mainactivity.core.toast.workmanager.SelectImageFragment"
+        android:label="fragment_select_image"
+        tools:layout="@layout/fragment_select_image" >
+        <action
+            android:id="@+id/action_selectImageFragment_to_mainFragment2"
             app:destination="@id/mainFragment2" />
     </fragment>
 </navigation>
